@@ -101,7 +101,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/silent-mate
+      link: https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management
     - icon: fontawesome/brands/android
       link: https://play.google.com/store/apps/details?id=com.example.silentmate
   version:
