@@ -1,4 +1,4 @@
-site_name: Silent Mate Documentation
+site_name: SilentMate Documentation
 site_url: https://lrmanamperi.github.io/silent-mate/
 site_description: Intelligent audio profile switching for Android
 site_author: Lakshani Manamperi
@@ -37,7 +37,7 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
-  logo: assets/logo.png  # Optional
+  logo: /workspaces/Silentmate-Docs/docs/assets/SilentMate-App Icon cropped.png  # Optional
   favicon: assets/favicon.ico  # Optional
 
 # Navigation
@@ -108,4 +108,4 @@ extra:
     provider: mike
 
 # Copyright
-copyright: Copyright &copy; 2024 Your Name
+copyright: Copyright &copy; 2025 LakshaniRasa

@@ -23,6 +23,14 @@ Welcome to Silent Mate! This guide will help you get started with the app and se
 5. Tap "Open" to launch Silent Mate
 
 ## Initial Setup
+ HomePage: /workspaces/Silentmate-Docs/docs/assets/HomeSM.jpg
+ Dark mode: /workspaces/Silentmate-Docs/docs/assets/Dekmode.jpg
+ Addevent: /workspaces/Silentmate-Docs/docs/assets/Addevent.jpg
+ Event: /workspaces/Silentmate-Docs/docs/assets/Event.jpg
+ Notifications: /workspaces/Silentmate-Docs/docs/assets/Notifications.jpg
+ Sensor-based context switching: /workspaces/Silentmate-Docs/docs/assets/SensorbasedCSPage.jpg
+ Settings: /workspaces/Silentmate-Docs/docs/assets/Settings.jpg
+ 
 
 ### Step 1: Grant Permissions
 
