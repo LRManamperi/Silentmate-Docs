@@ -118,16 +118,16 @@ graph LR
 Need help? We've got you covered:
 
 - 📖 **Documentation** - You're reading it!
-- 🐛 **Bug Reports** - [GitHub Issues](https://github.com/yourusername/silent-mate/issues)
-- 💬 **Discussions** - [GitHub Discussions](https://github.com/yourusername/silent-mate/discussions)
+- 🐛 **Bug Reports** - [GitHub Issues](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues)
+- 💬 **Discussions** - [GitHub Discussions](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/discussions)
 - ✉️ **Email** - support@example.com
 
 ## 🔗 Quick Links
 
-- [Download APK](https://github.com/yourusername/silent-mate/releases)
-- [View Source Code](https://github.com/yourusername/silent-mate)
-- [Report an Issue](https://github.com/yourusername/silent-mate/issues/new)
-- [Request a Feature](https://github.com/yourusername/silent-mate/issues/new?labels=enhancement)
+- [Download APK](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/releases)
+- [View Source Code](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management)
+- [Report an Issue](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues/new)
+- [Request a Feature](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues/new?labels=enhancement)
 
 ---
 
