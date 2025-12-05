@@ -1,11 +1,11 @@
 site_name: Silent Mate Documentation
-site_url: https://yourusername.github.io/silent-mate/
+site_url: https://lrmanamperi.github.io/silent-mate/
 site_description: Intelligent audio profile switching for Android
-site_author: Your Name
+site_author: Lakshani Manamperi
 
 # Repository
-repo_name: yourusername/silent-mate
-repo_url: https://github.com/yourusername/silent-mate
+repo_name: SenuDyl/silent-mate
+repo_url: https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management
 edit_uri: edit/main/docs/
 
 # Theme
