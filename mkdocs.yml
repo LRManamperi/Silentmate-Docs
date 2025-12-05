@@ -37,7 +37,7 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
-  logo: /workspaces/Silentmate-Docs/docs/assets/SilentMate-App Icon cropped.png  # Optional
+  logo: assets/SilentMate-App Icon cropped.png  # Optional
   favicon: assets/favicon.ico  # Optional
 
 # Navigation
