@@ -12,13 +12,13 @@
         <meta name="author" content="Lakshani Manamperi">
       
       
-        <link rel="canonical" href="https://lrmanamperi.github.io/silent-mate/technical/audio-profiles/">
+        <link rel="canonical" href="https://lrmanamperi.github.io/silent-mate/user-guide/features/">
       
       
-        <link rel="prev" href="../architecture/">
+        <link rel="prev" href="../getting-started/">
       
       
-        <link rel="next" href="../api-reference/">
+        <link rel="next" href="../faq/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Audio Profiles - SilentMate Documentation</title>
+        <title>Features - SilentMate Documentation</title>
       
     
     
@@ -79,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#features" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -112,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Audio Profiles
+              Features
             
           </span>
         </div>
@@ -245,11 +250,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../user-guide/getting-started/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../getting-started/" class="md-tabs__link">
           
   
   
@@ -265,13 +272,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../architecture/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../technical/architecture/" class="md-tabs__link">
           
   
   
@@ -400,26 +405,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -437,7 +447,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -455,7 +465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user-guide/getting-started/" class="md-nav__link">
+      <a href="../getting-started/" class="md-nav__link">
         
   
   
@@ -480,10 +490,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../user-guide/features/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Features
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -499,6 +536,404 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#three-detection-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Three Detection Modes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-scheduling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📅 Event Scheduling
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📅 Event Scheduling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#on-desk-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📱 On Desk Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-pocket-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👖 In Pocket Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-hand-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤚 In Hand Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#audio-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio Profiles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Audio Profiles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#silent-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔇 Silent Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vibration-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📳 Vibration Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔊 General Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Advanced Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Advanced Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚡ Performance Modes
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚡ Performance Modes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-performance-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        High Performance Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-saver-mode-default" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Power Saver Mode (Default)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smart-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔔 Smart Notifications
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔔 Smart Notifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notification-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notification Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notification-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notification Content
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#customizable-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎛️ Customizable Detection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎛️ Customizable Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#individual-mode-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Individual Mode Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#real-time-monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Real-Time Monitoring
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dark-mode-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌙 Dark Mode Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privacy-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔐 Privacy &amp; Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feature-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feature Comparison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coming-soon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Coming Soon
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#feature-benefits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feature Benefits
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Feature Benefits">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-office-workers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Office Workers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-students" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Students
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-busy-professionals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Busy Professionals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#for-everyone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Everyone
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -511,7 +946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user-guide/how-to-use.md" class="md-nav__link">
+      <a href="../how-to-use.md" class="md-nav__link">
         
   
   
@@ -539,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user-guide/troubleshooting.md" class="md-nav__link">
+      <a href="../troubleshooting.md" class="md-nav__link">
         
   
   
@@ -567,7 +1002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user-guide/faq/" class="md-nav__link">
+      <a href="../faq/" class="md-nav__link">
         
   
   
@@ -599,31 +1034,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -641,7 +1071,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -659,7 +1089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../architecture/" class="md-nav__link">
+      <a href="../../technical/architecture/" class="md-nav__link">
         
   
   
@@ -687,7 +1117,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sensor-logic.md" class="md-nav__link">
+      <a href="../../technical/sensor-logic.md" class="md-nav__link">
         
   
   
@@ -712,17 +1142,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../technical/audio-profiles/" class="md-nav__link">
         
   
   
@@ -738,7 +1161,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -751,7 +1173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../api-reference/" class="md-nav__link">
+      <a href="../../technical/api-reference/" class="md-nav__link">
         
   
   
@@ -1085,9 +1507,395 @@
   
 
 
-  <h1>Audio Profiles</h1>
-
-
+<h1 id="features">Features</h1>
+<p>Silent Mate offers intelligent, automatic audio profile switching based on how you hold and place your device.</p>
+<h2 id="core-features">Core Features</h2>
+<h3 id="three-detection-modes">🎯 Three Detection Modes</h3>
+<p>Silent Mate can detect three distinct phone positions and automatically adjust your audio profile accordingly.</p>
+<h3 id="event-scheduling">📅 Event Scheduling</h3>
+<p><img alt="Add Event" src="../../assets/Addevent.jpg" /></p>
+<p><strong>Create Scheduled Audio Profiles:</strong></p>
+<p>Silent Mate allows you to schedule audio profiles for specific times and locations, perfect for:
+- Regular meetings or classes
+- Gym sessions
+- Sleep schedule
+- Work hours
+- Any recurring event</p>
+<p><strong>Event Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Event Name</strong></td>
+<td>Custom label for the event</td>
+<td>"Monday Meeting", "Gym Time"</td>
+</tr>
+<tr>
+<td><strong>Time</strong></td>
+<td>Start and end time</td>
+<td>9:00 AM - 10:00 AM</td>
+</tr>
+<tr>
+<td><strong>Location</strong></td>
+<td>Optional location name</td>
+<td>"Conference Room", "Gym"</td>
+</tr>
+<tr>
+<td><strong>Recurrence</strong></td>
+<td>Repeat pattern</td>
+<td>Daily, Weekly, Monthly, Custom</td>
+</tr>
+<tr>
+<td><strong>Audio Profile</strong></td>
+<td>Desired mode</td>
+<td>Silent, Vibration, General</td>
+</tr>
+</tbody>
+</table>
+<p><strong>How It Works:</strong>
+1. Create event with name, time, location, and recurrence
+2. Select desired audio profile for that event
+3. App automatically switches profiles when event time arrives
+4. Switches back to sensor-based detection when event ends</p>
+<p><strong>Event Priority:</strong>
+- Scheduled events override sensor-based detection
+- Multiple overlapping events: Latest created takes priority
+- Events can be enabled/disabled individually
+- Works alongside sensor switching</p>
+<p><img alt="Event List" src="../../assets/Event.jpg" /></p>
+<p><strong>Use Cases:</strong>
+- <strong>Work Meetings:</strong> Silent mode during scheduled meetings
+- <strong>Gym Sessions:</strong> General mode for music playback
+- <strong>Sleep Time:</strong> Silent mode from 11 PM to 7 AM
+- <strong>Classes:</strong> Silent mode during class hours
+- <strong>Commute:</strong> Vibration mode during travel time</p>
+<h4 id="on-desk-detection">📱 On Desk Detection</h4>
+<p><strong>What it does:</strong>
+- Detects when your phone is lying flat, face-up on a surface
+- Automatically switches to <strong>Silent Mode</strong> 🔇</p>
+<p><strong>How it works:</strong>
+- Monitors Z-axis acceleration (gravity)
+- Checks for minimal movement (device is stable)
+- Confirms face-up orientation</p>
+<p><strong>Perfect for:</strong>
+- During meetings or presentations
+- While working at your desk
+- During sleep time
+- In quiet environments (libraries, theaters)</p>
+<p><strong>Technical Details:</strong>
+- <strong>Trigger:</strong> Z-axis &gt; 7 (face-up) + movement &lt; 0.1 (very stable)
+- <strong>Result:</strong> RINGER_MODE_SILENT
+- <strong>Notification:</strong> Silent notification (no sound/vibration)</p>
+<hr />
+<h4 id="in-pocket-detection">👖 In Pocket Detection</h4>
+<p><strong>What it does:</strong>
+- Detects when your phone is in your pocket or bag
+- Automatically switches to <strong>Vibration Mode</strong> 📳</p>
+<p><strong>How it works:</strong>
+- Uses proximity sensor to detect nearby objects
+- Confirms face-down orientation (screen facing inward)
+- Validates with accelerometer data</p>
+<p><strong>Perfect for:</strong>
+- Walking around with phone in pocket
+- Phone in a bag or purse
+- Face-down on a table
+- When you need discrete notifications</p>
+<p><strong>Technical Details:</strong>
+- <strong>Trigger:</strong> Proximity &lt; 5cm + Z-axis between -3 and -12 (face-down)
+- <strong>Fallback:</strong> Proximity &lt; 2cm (very close)
+- <strong>Result:</strong> RINGER_MODE_VIBRATE
+- <strong>Notification:</strong> Vibration pattern [0, 800, 300, 800]ms</p>
+<hr />
+<h4 id="in-hand-detection">🤚 In Hand Detection</h4>
+<p><strong>What it does:</strong>
+- Detects when you're actively holding or using your phone
+- Automatically switches to <strong>General Mode</strong> 🔊</p>
+<p><strong>How it works:</strong>
+- Monitors accelerometer for face-up orientation
+- Detects movement from gyroscope data
+- Distinguishes between holding and active use</p>
+<p><strong>Perfect for:</strong>
+- When you pick up your phone
+- While browsing or texting
+- During active phone use
+- When you want full sound and vibration</p>
+<p><strong>Technical Details:</strong>
+- <strong>Trigger:</strong> Z-axis 5-12 (face-up) + movement &gt; 0.05 (holding) or &gt; 0.5 (active)
+- <strong>Result:</strong> RINGER_MODE_NORMAL
+- <strong>Notification:</strong> Sound + vibration
+- <strong>Volume Check:</strong> Ensures ring volume &gt; 0, sets to 50% if muted</p>
+<hr />
+<h2 id="audio-profiles">Audio Profiles</h2>
+<h3 id="silent-mode">🔇 Silent Mode</h3>
+<p><strong>What it does:</strong>
+- Mutes all ringtones and notification sounds
+- No vibration
+- Alarms still work normally</p>
+<p><strong>When activated:</strong>
+- Phone on desk (face-up, stable)
+- Unknown/default state</p>
+<p><strong>System behavior:</strong>
+- RINGER_MODE_SILENT
+- No sounds for calls or notifications
+- DND-like behavior (but alarms still ring)</p>
+<hr />
+<h3 id="vibration-mode">📳 Vibration Mode</h3>
+<p><strong>What it does:</strong>
+- Vibrates for calls and notifications
+- No sound output
+- Discrete alerts</p>
+<p><strong>When activated:</strong>
+- Phone in pocket (proximity + face-down)
+- Phone in bag or purse</p>
+<p><strong>System behavior:</strong>
+- RINGER_MODE_VIBRATE
+- Strong vibration patterns
+- No audio output</p>
+<hr />
+<h3 id="general-mode">🔊 General Mode</h3>
+<p><strong>What it does:</strong>
+- Full ringtone and notification sounds
+- Vibration enabled
+- Normal phone behavior</p>
+<p><strong>When activated:</strong>
+- Phone in hand (face-up + movement)
+- Active use detected</p>
+<p><strong>System behavior:</strong>
+- RINGER_MODE_NORMAL
+- Sound + vibration for calls/notifications
+- Restores volume if muted</p>
+<hr />
+<h2 id="advanced-features">Advanced Features</h2>
+<h3 id="performance-modes">⚡ Performance Modes</h3>
+<p>Silent Mate offers two performance profiles to balance detection speed and battery life.</p>
+<h4 id="high-performance-mode">High Performance Mode</h4>
+<p><strong>Characteristics:</strong>
+- Faster sensor sampling rate (SENSOR_DELAY_NORMAL)
+- Quicker position detection (~200-500ms)
+- More frequent sensor checks
+- Higher battery consumption</p>
+<p><strong>Best for:</strong>
+- When you need instant detection
+- During active phone use
+- When battery isn't a concern
+- Testing and debugging</p>
+<p><strong>Battery Impact:</strong> ~5-10% per day</p>
+<h4 id="power-saver-mode-default">Power Saver Mode (Default)</h4>
+<p><strong>Characteristics:</strong>
+- Slower sensor sampling rate (SENSOR_DELAY_UI)
+- Slightly delayed detection (~500-1000ms)
+- Less frequent sensor checks
+- Minimal battery consumption</p>
+<p><strong>Best for:</strong>
+- All-day usage
+- When battery life is important
+- Normal daily use
+- Background monitoring</p>
+<p><strong>Battery Impact:</strong> ~2-5% per day</p>
+<hr />
+<h3 id="smart-notifications">🔔 Smart Notifications</h3>
+<p>Silent Mate notifies you when your audio profile changes, with intelligent notification behavior based on the mode.</p>
+<h4 id="notification-types">Notification Types</h4>
+<p><strong>For General Mode (In Hand):</strong>
+- ✅ Sound alert
+- ✅ Vibration pattern
+- ✅ High priority notification
+- 🔊 Audible ringtone plays</p>
+<p><strong>For Vibration Mode (In Pocket):</strong>
+- ❌ No sound
+- ✅ Strong vibration (800ms patterns)
+- ✅ Normal priority
+- 📳 Discrete alert</p>
+<p><strong>For Silent Mode (On Desk):</strong>
+- ❌ No sound
+- ❌ No vibration
+- ✅ Low priority notification
+- 🔇 Silent notification only</p>
+<h4 id="notification-content">Notification Content</h4>
+<p>Each notification shows:
+- Current position (On Desk / In Pocket / In Hand)
+- Active audio profile (Silent / Vibration / General)
+- Status icon
+- Timestamp</p>
+<p><strong>Customization:</strong>
+- Enable/disable notifications in Settings
+- Notifications can be turned off without affecting detection
+- Notification behavior adapts to each mode automatically</p>
+<hr />
+<h3 id="customizable-detection">🎛️ Customizable Detection</h3>
+<p>Each detection mode can be independently enabled or disabled, giving you full control over which features you use.</p>
+<h4 id="individual-mode-control">Individual Mode Control</h4>
+<p><strong>Toggle On Desk Detection:</strong>
+- When ON: Phone on desk → Silent mode
+- When OFF: Desk position is ignored</p>
+<p><strong>Toggle In Pocket Detection:</strong>
+- When ON: Phone in pocket → Vibration mode
+- When OFF: Pocket position is ignored</p>
+<p><strong>Toggle In Hand Detection:</strong>
+- When ON: Phone in hand → General mode
+- When OFF: Hand position is ignored</p>
+<h4 id="use-cases">Use Cases</h4>
+<p><strong>Only Silent When on Desk:</strong>
+- ✅ Enable: On Desk
+- ❌ Disable: In Pocket, In Hand
+- Result: Manual control except when on desk</p>
+<p><strong>Only Vibrate in Pocket:</strong>
+- ❌ Disable: On Desk
+- ✅ Enable: In Pocket
+- ❌ Disable: In Hand
+- Result: Manual control except in pocket</p>
+<p><strong>Full Automation:</strong>
+- ✅ Enable: All three modes
+- Result: Complete automatic audio management</p>
+<hr />
+<h3 id="real-time-monitoring">📊 Real-Time Monitoring</h3>
+<p>The Sensor screen provides live debugging and monitoring capabilities.</p>
+<p><strong>Live Sensor Data:</strong>
+- <strong>Z-axis:</strong> Current vertical acceleration (gravity)
+- <strong>Proximity:</strong> Distance to nearest object (cm)
+- <strong>Movement:</strong> Gyroscope magnitude (rotation speed)
+- <strong>Position:</strong> Currently detected state</p>
+<p><strong>Debug Information:</strong>
+- Sensor readings update every 500ms
+- Color-coded status indicators
+- Real-time position tracking
+- Movement visualization</p>
+<p><strong>Benefits:</strong>
+- Troubleshoot detection issues
+- Understand how sensors work
+- Verify sensor availability
+- Test different positions</p>
+<hr />
+<h3 id="dark-mode-support">🌙 Dark Mode Support</h3>
+<p>Silent Mate includes a full dark theme for comfortable use in low-light conditions.</p>
+<p><strong>Features:</strong>
+- System-wide dark theme
+- OLED-friendly colors
+- Preserves battery on OLED screens
+- Smooth theme transitions
+- Persists across app restarts</p>
+<p><strong>How to Enable:</strong>
+1. Go to Settings ⚙️
+2. Toggle "Dark Mode"
+3. App immediately switches theme</p>
+<hr />
+<h3 id="privacy-security">🔐 Privacy &amp; Security</h3>
+<p><strong>Data Privacy:</strong>
+- ✅ No internet connection required
+- ✅ No data collection or tracking
+- ✅ No ads or analytics
+- ✅ All processing happens on-device
+- ✅ No account required</p>
+<p><strong>Permissions Used:</strong>
+- <strong>Do Not Disturb Access:</strong> Only to change ringer mode
+- <strong>Notification Permission:</strong> Only for status alerts
+- <strong>Sensor Access:</strong> Automatically granted (hardware access)</p>
+<p><strong>Security:</strong>
+- No sensitive data stored
+- No network communication
+- Open-source code (if applicable)
+- Transparent permission usage</p>
+<hr />
+<h2 id="feature-comparison">Feature Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Free Version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>On Desk Detection</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>In Pocket Detection</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>In Hand Detection</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Performance Modes</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Smart Notifications</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Dark Mode</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>No Ads</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Offline Operation</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Real-time Monitoring</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Customizable Modes</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="coming-soon">Coming Soon</h2>
+<p><strong>Planned Features:</strong></p>
+<ul>
+<li>🔄 Custom sensitivity adjustments</li>
+<li>⏰ Time-based profiles (work hours, sleep time)</li>
+<li>📍 Location-based switching</li>
+<li>🔊 Custom vibration patterns</li>
+<li>📈 Usage statistics and analytics</li>
+<li>🎨 Custom themes and colors</li>
+<li>🔗 Integration with other automation apps</li>
+<li>☁️ Backup and restore settings</li>
+</ul>
+<hr />
+<h2 id="feature-benefits">Feature Benefits</h2>
+<h3 id="for-office-workers">For Office Workers</h3>
+<ul>
+<li>Silent during meetings (phone on desk)</li>
+<li>Vibrate when in pocket</li>
+<li>Sound when actively using</li>
+</ul>
+<h3 id="for-students">For Students</h3>
+<ul>
+<li>Silent during classes (phone on desk)</li>
+<li>Discrete vibration in bag</li>
+<li>Full sound when studying alone</li>
+</ul>
+<h3 id="for-busy-professionals">For Busy Professionals</h3>
+<ul>
+<li>Never miss calls when holding phone</li>
+<li>Discrete in meetings (pocket mode)</li>
+<li>Silent during focused work (desk mode)</li>
+</ul>
+<h3 id="for-everyone">For Everyone</h3>
+<ul>
+<li>Hands-free audio management</li>
+<li>No more manual switching</li>
+<li>Intelligent automation</li>
+<li>Battery efficient</li>
+<li>Privacy-focused</li>
+</ul>
+<hr />
+<p><strong>Next:</strong> Learn <a href="how-to-use.md">How to Use</a> these features in detail.</p>
 
 
 
@@ -1110,7 +1918,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 5, 2025 08:11:49 UTC">December 5, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 6, 2025 05:16:18 UTC">December 6, 2025</span>
   </span>
 
     
@@ -1120,7 +1928,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 5, 2025 08:11:49 UTC">December 5, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="December 6, 2025 05:16:18 UTC">December 6, 2025</span>
   </span>
 
     
