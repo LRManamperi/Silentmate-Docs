@@ -4,11 +4,11 @@ Silent Mate offers intelligent, automatic audio profile switching based on how y
 
 ## Core Features
 
-### 🎯 Three Detection Modes
+### Three Detection Modes
 
 Silent Mate can detect three distinct phone positions and automatically adjust your audio profile accordingly.
 
-### 📅 Event Scheduling
+### Event Scheduling
 
 ![Add Event](../assets/Addevent.jpg)
 
@@ -164,7 +164,7 @@ Silent Mate allows you to schedule audio profiles for specific times and locatio
 
 ---
 
-### 🔊 General Mode
+### 🔊General Mode
 
 **What it does:**
 - Full ringtone and notification sounds
@@ -184,7 +184,7 @@ Silent Mate allows you to schedule audio profiles for specific times and locatio
 
 ## Advanced Features
 
-### ⚡ Performance Modes
+### Performance Modes
 
 Silent Mate offers two performance profiles to balance detection speed and battery life.
 
@@ -222,29 +222,29 @@ Silent Mate offers two performance profiles to balance detection speed and batte
 
 ---
 
-### 🔔 Smart Notifications
+### Smart Notifications
 
 Silent Mate notifies you when your audio profile changes, with intelligent notification behavior based on the mode.
 
 #### Notification Types
 
 **For General Mode (In Hand):**
-- ✅ Sound alert
-- ✅ Vibration pattern
-- ✅ High priority notification
-- 🔊 Audible ringtone plays
+- Sound alert
+- Vibration pattern
+- High priority notification
+- Audible ringtone plays
 
 **For Vibration Mode (In Pocket):**
-- ❌ No sound
-- ✅ Strong vibration (800ms patterns)
-- ✅ Normal priority
-- 📳 Discrete alert
+- No sound
+- Strong vibration (800ms patterns)
+- Normal priority
+- Discrete alert
 
 **For Silent Mode (On Desk):**
-- ❌ No sound
-- ❌ No vibration
-- ✅ Low priority notification
-- 🔇 Silent notification only
+- No sound
+- No vibration
+- Low priority notification
+- Silent notification only
 
 #### Notification Content
 
@@ -261,7 +261,7 @@ Each notification shows:
 
 ---
 
-### 🎛️ Customizable Detection
+### Customizable Detection
 
 Each detection mode can be independently enabled or disabled, giving you full control over which features you use.
 
@@ -282,23 +282,23 @@ Each detection mode can be independently enabled or disabled, giving you full co
 #### Use Cases
 
 **Only Silent When on Desk:**
-- ✅ Enable: On Desk
-- ❌ Disable: In Pocket, In Hand
+- Enable: On Desk
+- Disable: In Pocket, In Hand
 - Result: Manual control except when on desk
 
 **Only Vibrate in Pocket:**
-- ❌ Disable: On Desk
-- ✅ Enable: In Pocket
-- ❌ Disable: In Hand
+- Disable: On Desk
+- Enable: In Pocket
+- Disable: In Hand
 - Result: Manual control except in pocket
 
 **Full Automation:**
-- ✅ Enable: All three modes
+- Enable: All three modes
 - Result: Complete automatic audio management
 
 ---
 
-### 📊 Real-Time Monitoring
+###  Real-Time Monitoring
 
 The Sensor screen provides live debugging and monitoring capabilities.
 
@@ -322,7 +322,7 @@ The Sensor screen provides live debugging and monitoring capabilities.
 
 ---
 
-### 🌙 Dark Mode Support
+###  Dark Mode Support
 
 Silent Mate includes a full dark theme for comfortable use in low-light conditions.
 
@@ -340,14 +340,13 @@ Silent Mate includes a full dark theme for comfortable use in low-light conditio
 
 ---
 
-### 🔐 Privacy & Security
+###  Privacy & Security
 
 **Data Privacy:**
-- ✅ No internet connection required
-- ✅ No data collection or tracking
-- ✅ No ads or analytics
-- ✅ All processing happens on-device
-- ✅ No account required
+- No internet connection required
+- No data collection or tracking
+- All processing happens on-device
+- No account required
 
 **Permissions Used:**
 - **Do Not Disturb Access:** Only to change ringer mode
@@ -383,14 +382,14 @@ Silent Mate includes a full dark theme for comfortable use in low-light conditio
 
 **Planned Features:**
 
-- 🔄 Custom sensitivity adjustments
-- ⏰ Time-based profiles (work hours, sleep time)
-- 📍 Location-based switching
-- 🔊 Custom vibration patterns
-- 📈 Usage statistics and analytics
-- 🎨 Custom themes and colors
-- 🔗 Integration with other automation apps
-- ☁️ Backup and restore settings
+- Custom sensitivity adjustments
+- Time-based profiles (work hours, sleep time)
+- Location-based switching
+- Custom vibration patterns
+- Usage statistics and analytics
+- Custom themes and colors
+- Integration with other automation apps
+- Backup and restore settings
 
 ---
 

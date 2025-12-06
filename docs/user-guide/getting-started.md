@@ -537,20 +537,20 @@ Live sensor readings updated every 500ms:
 ### Q: Why isn't pocket detection working?
 
 **A:** Check these:
-1. ✅ Proximity sensor values change when covered (check Sensor screen)
-2. ✅ Phone is face-down (screen facing inward)
-3. ✅ "In Pocket" toggle is ON in Sensor screen
-4. ✅ No thick case/screen protector blocking sensor
-5. ✅ Do Not Disturb permission is granted
+1. Proximity sensor values change when covered (check Sensor screen)
+2. Phone is face-down (screen facing inward)
+3. "In Pocket" toggle is ON in Sensor screen
+4. No thick case/screen protector blocking sensor
+5. Do Not Disturb permission is granted
 
 ### Q: Events not triggering at scheduled time?
 
 **A:** Verify:
-1. ✅ Event-based switching is ON in Settings
-2. ✅ Event is enabled (toggle is pink)
-3. ✅ Phone isn't in battery saver mode (may delay)
-4. ✅ App has background permission
-5. ✅ Notifications are enabled to see trigger confirmation
+1. Event-based switching is ON in Settings
+2. Event is enabled (toggle is pink)
+3. Phone isn't in battery saver mode (may delay)
+4. App has background permission
+5. Notifications are enabled to see trigger confirmation
 
 ### Q: Can I use both sensor and event switching together?
 
@@ -570,11 +570,11 @@ Live sensor readings updated every 500ms:
 ### Q: Does it work with the screen off?
 
 **A:** Yes! Both modes work when:
-- ✅ Screen is off
-- ✅ Phone is locked
-- ✅ Using other apps
-- ✅ Phone is in standby
-- ⚠️ May be delayed in aggressive battery saver modes
+- Screen is off
+- Phone is locked
+- Using other apps
+- Phone is in standby
+- May be delayed in aggressive battery saver modes
 
 ### Q: How much battery does it use?
 
@@ -639,10 +639,10 @@ Live sensor readings updated every 500ms:
 
 Now that you're set up:
 
-1. ✅ **Learn Advanced Features** - Read the [Features](features.md) guide
-2. ✅ **Customize Settings** - Explore all configuration options
-3. ✅ **Optimize Performance** - See tips in [Troubleshooting](troubleshooting.md)
-4. ✅ **Get Help** - Visit [FAQ](faq.md) for common questions
+1. **Learn Advanced Features** - Read the [Features](features.md) guide
+2. **Customize Settings** - Explore all configuration options
+3. **Optimize Performance** - See tips in [Troubleshooting](troubleshooting.md)
+4. **Get Help** - Visit [FAQ](faq.md) for common questions
 
 ---
 
@@ -650,11 +650,11 @@ Now that you're set up:
 
 If you encounter issues during setup:
 
-- 📖 **Check [Troubleshooting Guide](troubleshooting.md)** - Solutions to common problems
-- ❓ **Review [FAQ](faq.md)** - Frequently asked questions
-- 🔧 **Test Sensors** - Use Sensor screen to verify hardware
-- ✅ **Verify Permissions** - Ensure all required permissions granted
-- 📧 **Contact Support** - See [Support](../about/support.md) for help channels
+- **Check [Troubleshooting Guide](troubleshooting.md)** - Solutions to common problems
+- **Review [FAQ](faq.md)** - Frequently asked questions
+- **Test Sensors** - Use Sensor screen to verify hardware
+- **Verify Permissions** - Ensure all required permissions granted
+- **Contact Support** - See [Support](../about/support.md) for help channels
 
 **Welcome to Silent Mate! 🎯📱**
 

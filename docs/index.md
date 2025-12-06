@@ -17,19 +17,19 @@ Silent Mate is an intelligent Android app that automatically adjusts your phone'
 Features
 --------
 
-🎯 **Three Detection Modes**
+**Three Detection Modes**
 
 * **On Desk** 📱 - Silent mode when phone is lying flat
 * **In Pocket** 👖 - Vibration mode when in pocket
 * **In Hand** 🤚 - General mode when actively using
 
-🔔 **Smart Audio Profiles**
+**Smart Audio Profiles**
 
 * Silent Mode 🔇 - No sound, no vibration
 * Vibration Mode 📳 - Vibration only
 * General Mode 🔊 - Full sound and vibration
 
-⚡ **Performance Optimized**
+**Performance Optimized**
 
 * Power Saver mode for all-day usage
 * High Performance mode for instant detection
