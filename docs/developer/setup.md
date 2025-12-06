@@ -48,7 +48,7 @@ This guide will help you set up your development environment for contributing to
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/silent-mate.git
+git clone https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management.git
 
 # Navigate to project directory
 cd silent-mate
@@ -479,11 +479,11 @@ git commit -m "refactor: Extract sensor logic to separate class"
 
 Now that your environment is set up:
 
-1. ✅ **Read Architecture** - Understand system design
-2. ✅ **Review Code** - Familiarize yourself with codebase
-3. ✅ **Run Tests** - Ensure everything works
-4. ✅ **Make Changes** - Start contributing!
-5. ✅ **Submit PR** - Follow contribution guidelines
+1. **Read Architecture** - Understand system design
+2. **Review Code** - Familiarize yourself with codebase
+3. **Run Tests** - Ensure everything works
+4. **Make Changes** - Start contributing!
+5. **Submit PR** - Follow contribution guidelines
 
 **Happy coding! 🚀**
 
