@@ -54,8 +54,6 @@ nav:
       - API Reference: technical/api-reference.md
   - Developer:
       - Setup: developer/setup.md
-  - About:
-      - Support: about/support.md
 
 # Extensions
 markdown_extensions:
