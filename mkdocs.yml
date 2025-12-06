@@ -46,8 +46,6 @@ nav:
   - User Guide:
       - Getting Started: user-guide/getting-started.md
       - Features: user-guide/features.md
-      - How to Use: user-guide/how-to-use.md
-      - Troubleshooting: user-guide/troubleshooting.md
       - FAQ: user-guide/faq.md
   - Technical:
       - Architecture: technical/architecture.md
@@ -56,11 +54,7 @@ nav:
       - API Reference: technical/api-reference.md
   - Developer:
       - Setup: developer/setup.md
-      - Building: developer/building.md
-      - Contributing: developer/contributing.md
   - About:
-      - Changelog: about/changelog.md
-      - License: about/license.md
       - Support: about/support.md
 
 # Extensions

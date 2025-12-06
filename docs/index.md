@@ -449,12 +449,6 @@ graph LR
 
     ---
 
-    Solutions to common problems and device-specific issues
-    
-    [:octicons-arrow-right-24: Get help](user-guide/troubleshooting.md)
-
--   :material-frequently-asked-questions:{ .lg .middle } **FAQ**
-
     ---
 
     Answers to frequently asked questions
