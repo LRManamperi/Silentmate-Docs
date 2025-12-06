@@ -7,10 +7,6 @@
 **Intelligent Audio Profile Management for Android**
 
 
-[Get Started](user-guide/getting-started.md){ .md-button .md-button--primary }
-[Download APK](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/releases){ .md-button }
-[View on GitHub](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management){ .md-button }
-
 </div>
 
 ---
