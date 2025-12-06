@@ -2,14 +2,10 @@
 
 <div align="center">
 
-![Silent Mate Logo](assets/logo.png)
+![Silent Mate Logo](/workspaces/Silentmate-Docs/docs/assets/SilentMate-App Icon cropped.png)
 
 **Intelligent Audio Profile Management for Android**
 
-[![Android](https://img.shields.io/badge/Android-5.0%2B-green.svg)](https://www.android.com/)
-[![Version](https://img.shields.io/badge/Version-1.0-orange.svg)](about/changelog.md)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](about/license.md)
-[![Downloads](https://img.shields.io/github/downloads/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/total)](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/releases)
 
 [Get Started](user-guide/getting-started.md){ .md-button .md-button--primary }
 [Download APK](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/releases){ .md-button }
@@ -19,7 +15,7 @@
 
 ---
 
-## 🎯 What is Silent Mate?
+## What is Silent Mate?
 
 Silent Mate is an intelligent Android application that **automatically manages your phone's audio profile** using two powerful methods:
 
@@ -45,7 +41,7 @@ Silent Mate is an intelligent Android application that **automatically manages y
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 📡 Sensor-Based Detection
 
@@ -90,10 +86,10 @@ Create smart schedules for your audio profiles:
 
 | Feature | Description | Use Case |
 |---------|-------------|----------|
-| **📅 Time-Based** | Set start and end times | Daily meetings at 9 AM |
-| **📍 Location-Based** | Trigger at specific places | Silent at office, vibrate at gym |
-| **🔄 Recurring Events** | Daily, Weekly, Monthly | Sleep schedule, weekly classes |
-| **🎯 Custom Profiles** | Choose any audio mode | Silent, Vibration, or General |
+| **Time-Based** | Set start and end times | Daily meetings at 9 AM |
+| **Location-Based** | Trigger at specific places | Silent at office, vibrate at gym |
+| **Recurring Events** | Daily, Weekly, Monthly | Sleep schedule, weekly classes |
+| **Custom Profiles** | Choose any audio mode | Silent, Vibration, or General |
 
 **Example Events:**
 
@@ -129,7 +125,7 @@ Create smart schedules for your audio profiles:
 
 ---
 
-## 🎨 Audio Profiles
+## Audio Profiles
 
 Silent Mate manages three audio profiles:
 
@@ -181,7 +177,7 @@ Silent Mate manages three audio profiles:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Get Silent Mate running in **5 minutes**:
 
@@ -189,7 +185,7 @@ Get Silent Mate running in **5 minutes**:
 
     **Download & Install**
     
-    1. Download APK from [GitHub Releases](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/releases)
+    1. Download APK from [GitHub Releases](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management)
     2. Enable "Install from Unknown Sources" if prompted
     3. Open APK and tap "Install"
     4. Launch Silent Mate
@@ -208,13 +204,13 @@ Get Silent Mate running in **5 minutes**:
     
     Required:
     
-    - ✅ **Do Not Disturb Access** - Change audio profiles
-    - ✅ **Sensor Access** - Position detection (auto-granted)
+    - **Do Not Disturb Access** - Change audio profiles
+    - **Sensor Access** - Position detection (auto-granted)
     
     Optional:
     
-    - ⭕ **Location** - Location-based events
-    - ⭕ **Notifications** - Status alerts
+    - **Location** - Location-based events
+    - **Notifications** - Status alerts
 
 === "Step 3: Configure"
 
@@ -240,7 +236,7 @@ Get Silent Mate running in **5 minutes**:
 
 === "Step 4: Enjoy"
 
-    **You're All Set! 🎉**
+    **You're All Set! **
     
     Silent Mate is now managing your audio profiles automatically.
     
@@ -255,7 +251,7 @@ Get Silent Mate running in **5 minutes**:
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 ### Sensor-Based Flow
 
@@ -280,7 +276,7 @@ graph TD
 
 ```mermaid
 graph TD
-    A[⏰ Event Scheduler] --> B{Event Time?}
+    A[Event Scheduler] --> B{Event Time?}
     B -->|Not Yet| C[⏳ Wait]
     B -->|Now!| D{Location Check}
     D -->|Match or N/A| E[Apply Event Profile]
@@ -315,7 +311,7 @@ graph LR
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 <div class="grid" markdown>
 
@@ -367,29 +363,29 @@ graph LR
 
 ---
 
-## 💡 Why Choose Silent Mate?
+## Why Choose Silent Mate?
 
 ### Compared to Manual Switching
 
 | Feature | Manual | Silent Mate |
 |---------|--------|-------------|
-| **Convenience** | Must remember to switch | ✅ Automatic |
-| **Accuracy** | Often forget | ✅ Always correct |
-| **Context-aware** | No | ✅ Position + Time |
-| **Battery Impact** | None | ✅ Minimal (2-10%) |
-| **Customization** | Limited | ✅ Fully configurable |
+| **Convenience** | Must remember to switch | Automatic |
+| **Accuracy** | Often forget | Always correct |
+| **Context-aware** | No | Position + Time |
+| **Battery Impact** | None | Minimal (2-10%) |
+| **Customization** | Limited | Fully configurable |
 
 ### Compared to Other Apps
 
 | Feature | Silent Mate | Tasker | Do Not Disturb |
 |---------|-------------|--------|----------------|
-| **Sensor Detection** | ✅ Built-in | ⚠️ Complex setup | ❌ None |
-| **Event Scheduling** | ✅ Easy UI | ✅ Advanced | ⚠️ Basic |
-| **Location-Based** | ✅ Optional | ✅ Yes | ❌ None |
-| **Ease of Use** | ✅ Simple | ❌ Steep learning curve | ✅ Simple |
-| **Price** | ✅ Free | 💰 Paid | ✅ Free |
-| **Privacy** | ✅ No data collection | ⚠️ Varies | ✅ System app |
-| **Battery** | ✅ Optimized | ⚠️ Varies | ✅ Minimal |
+| **Sensor Detection** | Built-in | Complex setup | None |
+| **Event Scheduling** | Easy UI | Advanced | Basic |
+| **Location-Based** | Optional | Yes | None |
+| **Ease of Use** | Simple | Steep learning curve | Simple |
+| **Price** | Free | Paid | Free |
+| **Privacy** | No data collection | Varies | System app |
+| **Battery** | Optimized | Varies | Minimal |
 
 ---
 
@@ -398,12 +394,11 @@ graph LR
 !!! success "Privacy First"
     **Silent Mate respects your privacy:**
     
-    - ✅ **No Internet Required** - Works completely offline
-    - ✅ **No Data Collection** - Zero tracking or analytics
-    - ✅ **No Ads** - Clean, ad-free experience
-    - ✅ **On-Device Processing** - Everything stays on your phone
-    - ✅ **Open Source** - Code is transparent and reviewable
-    - ✅ **Minimal Permissions** - Only what's necessary
+    - **No Internet Required** - Works completely offline
+    - **No Data Collection** - Zero tracking or analytics
+    - **On-Device Processing** - Everything stays on your phone
+    - **Open Source** - Code is transparent and reviewable
+    - **Minimal Permissions** - Only what's necessary
 
 **Permissions Explained:**
 
@@ -436,7 +431,7 @@ graph LR
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 <div class="grid cards" markdown>
 
@@ -492,36 +487,31 @@ graph LR
 
 ---
 
-## 🤝 Community & Support
+## Community & Support
 
 ### Get Help
 
-- 📖 **Documentation** - You're reading it!
-- 🐛 **Bug Reports** - [GitHub Issues](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues)
-- 💬 **Discussions** - [GitHub Discussions](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/discussions)
-- ✉️ **Email** - support@example.com
+- **Documentation** - You're reading it!
+- **Bug Reports** - [GitHub Issues](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues)
+- **Discussions** - [GitHub Discussions](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/discussions)
+- **Email** - support@example.com
 
 ### Contribute
 
 We welcome contributions!
 
-- 🐛 Report bugs
-- 💡 Suggest features
-- 📝 Improve documentation
-- 💻 Submit pull requests
-- ⭐ Star the repository
+- Report bugs
+- Suggest features
+- Improve documentation
+- Submit pull requests
+- Star the repository
 
 [Contributing Guide →](developer/contributing.md)
 
-### Stay Updated
-
-- 📢 **Releases** - [GitHub Releases](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/releases)
-- 📋 **Changelog** - [Version History](about/changelog.md)
-- 🎯 **Roadmap** - [Planned Features](about/changelog.md#roadmap)
 
 ---
 
-## 🎓 Learn More
+## Learn More
 
 !!! tip "New Users"
     **Just installed Silent Mate?**
@@ -551,32 +541,4 @@ We welcome contributions!
 
 ---
 
-## 📜 License
 
-Silent Mate is licensed under the [MIT License](about/license.md).
-
-**TL;DR:** You can use, modify, and distribute Silent Mate freely, even for commercial purposes.
-
----
-
-## 🌟 Show Your Support
-
-If you find Silent Mate helpful:
-
-- ⭐ [Star on GitHub](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management)
-- 🐛 [Report bugs](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues)
-- 💡 [Suggest features](https://github.com/SenuDyl/SilentMate---A-Context-Aware-Mobile-Application-for-Automated-Sound-Profile-Management/issues/new?labels=enhancement)
-- 📢 Share with friends
-- 📝 Write a review
-
----
-
-<div align="center">
-
-**Made with ❤️ for the Android community**
-
-[Get Started Now](user-guide/getting-started.md){ .md-button .md-button--primary }
-
-*Silent Mate - Smart Audio Management, Simplified*
-
-</div>
