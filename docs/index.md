@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Silent Mate Logo](/workspaces/Silentmate-Docs/docs/assets/SilentMate-App Icon cropped.png)
+![Silent Mate Logo](./assets/SilentMate-App%20Icon%20cropped.png)
 
 **Intelligent Audio Profile Management for Android**
 
